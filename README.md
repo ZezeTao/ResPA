@@ -18,7 +18,7 @@ If you are interested in the paper and the code, please contact us at zeze@hbu.e
 ### Runing attack
 1. You can run our proposed attack as follows. 
 ```
-python Incv3_PGN_Attack.py
+python Incv3_ResPA_Attack.py
 ```
 2. The generated adversarial examples would be stored in the directory **./incv3_xx_xx_outputs**. Then run the file **verify.py** to evaluate the attack success rate of each model used in the paper:
 ```
